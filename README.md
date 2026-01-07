@@ -19,7 +19,7 @@ The application accepts meeting notes through an HTTP endpoint, uses GPT to extr
 ## Architecture
 - **AWS Lambda** – core backend logic
 - **AWS API Gateway (HTTP API)** – public interface
-- **GPT API** – action item extraction
+- **Cerebras API** – action item extraction
 - **Jira REST API** – ticket creation
 - **SendGrid** – email summary delivery
 - **AWS CloudWatch** – logging and monitoring
@@ -36,7 +36,7 @@ The application accepts meeting notes through an HTTP endpoint, uses GPT to extr
 ## Tech Stack
 - **Backend:** AWS Lambda (Python)
 - **API:** AWS API Gateway
-- **AI:** OpenAI GPT API
+- **AI:** Cerebras llama3.1-8b API
 - **Integrations:** Jira REST API, SendGrid
 - **Logging:** AWS CloudWatch
 

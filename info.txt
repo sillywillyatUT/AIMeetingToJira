@@ -1,0 +1,11 @@
+# Information about each file/class in directory
+
+* ex_transcript_action.txt:
+    Exanple transcript with actionable events that should be turned into Jira tickets
+
+*ex_transcript_noaction.txt
+    Exanple transcript with non-actionable events that should not be turned into Jira tickets
+
+*text_extraction_prompt.txt:
+    Prompt for AI Model
+
