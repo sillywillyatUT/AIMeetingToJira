@@ -1,5 +1,5 @@
 import json
-
+# Merge multiple JSON arrays into one. Deduplicates by task string.
 def merge_json_arrays(json_strings):
     """
     Merge multiple JSON arrays into one.
